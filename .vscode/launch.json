@@ -8,8 +8,13 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
+<<<<<<< HEAD
       "cwd": "/home/iversy/code/parall/ConsoleApp1",
       "program": "/home/iversy/code/parall/ConsoleApp1/build/Debug/outDebug",
+=======
+      "cwd": "/home/iversy/code/parall/lab3",
+      "program": "/home/iversy/code/parall/lab3/build/Debug/outDebug",
+>>>>>>> refs/remotes/origin/master
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
