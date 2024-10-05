@@ -1,0 +1,15 @@
+/home/iversy/code/parall/ConsoleApp3/bin/Debug/net8.0/ConsoleApp3
+/home/iversy/code/parall/ConsoleApp3/bin/Debug/net8.0/ConsoleApp3.deps.json
+/home/iversy/code/parall/ConsoleApp3/bin/Debug/net8.0/ConsoleApp3.runtimeconfig.json
+/home/iversy/code/parall/ConsoleApp3/bin/Debug/net8.0/ConsoleApp3.dll
+/home/iversy/code/parall/ConsoleApp3/bin/Debug/net8.0/ConsoleApp3.pdb
+/home/iversy/code/parall/ConsoleApp3/obj/Debug/net8.0/ConsoleApp3.GeneratedMSBuildEditorConfig.editorconfig
+/home/iversy/code/parall/ConsoleApp3/obj/Debug/net8.0/ConsoleApp3.AssemblyInfoInputs.cache
+/home/iversy/code/parall/ConsoleApp3/obj/Debug/net8.0/ConsoleApp3.AssemblyInfo.cs
+/home/iversy/code/parall/ConsoleApp3/obj/Debug/net8.0/ConsoleApp3.csproj.CoreCompileInputs.cache
+/home/iversy/code/parall/ConsoleApp3/obj/Debug/net8.0/ConsoleApp3.sourcelink.json
+/home/iversy/code/parall/ConsoleApp3/obj/Debug/net8.0/ConsoleApp3.dll
+/home/iversy/code/parall/ConsoleApp3/obj/Debug/net8.0/refint/ConsoleApp3.dll
+/home/iversy/code/parall/ConsoleApp3/obj/Debug/net8.0/ConsoleApp3.pdb
+/home/iversy/code/parall/ConsoleApp3/obj/Debug/net8.0/ConsoleApp3.genruntimeconfig.cache
+/home/iversy/code/parall/ConsoleApp3/obj/Debug/net8.0/ref/ConsoleApp3.dll

@@ -220,7 +220,7 @@ void main()
     // ParallelBlockMatrixMultiply(asd, bsd, result, 0, size / 2, 0, size / 2);
     // ParallelBlockMatrixMultiply(asd, bsd, result, size / 2, size, 0, size / 2);
     // PrintMatrix(result);
-    int[] size = [500, 1000, 2000];//, 2000, 5000, 10000];
+    int[] size = [2000];//, 2000, 5000, 10000];
     // ParTestRow(size, 10);
     // Console.WriteLine();
     // ParTestCol(size, 10);

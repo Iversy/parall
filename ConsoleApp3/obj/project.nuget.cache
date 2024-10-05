@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OiwgFXm/fRvYZ9UViCqkhbMU9msGhLEzhvh6S8HGdgUt7NGJpK98SWnbQC/OJDImmCJR6wyAt4lQOIC4YZPd4w==",
+  "success": true,
+  "projectFilePath": "/home/iversy/code/parall/ConsoleApp3/ConsoleApp3.csproj",
+  "expectedPackageFiles": [
+    "/home/iversy/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.8/microsoft.aspnetcore.app.ref.8.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
