@@ -9,17 +9,16 @@ void task_A(int N)
     int sum = 0;
 #pragma omp parallel num_threads(2) reduction(+ : sum)
     {
-        int part_sum = 0;
 
         int thread_id = omp_get_thread_num();
         for (int i = N / 2 * thread_id + 1; i <= N / 2 * (thread_id + 1); ++i)
         {
-            part_sum += i;
-            cout << "[" << omp_get_thread_num() << "]: Sum = " << part_sum << "\n";
+            sum += i;
         }
+
 #pragma omp critical
         {
-            sum += part_sum;
+            cout << "[" << omp_get_thread_num() << "]: Sum = " << sum << "\n";
         }
     }
     cout << "Sum = " << sum << endl;
@@ -39,7 +38,6 @@ void task_B(int N, int thread_number)
     int sum = 0;
 #pragma omp parallel num_threads(thread_number) reduction(+ : sum)
     {
-        int part_sum = 0;
         //
         int thread_id = omp_get_thread_num();
         int start = N / thread_number * thread_id + 1;
@@ -47,12 +45,11 @@ void task_B(int N, int thread_number)
         cout << start << " " << end << " T = " << thread_id << "\n";
         for (int i = start; i <= end; ++i)
         {
-            part_sum += i;
-            cout << "[" << omp_get_thread_num() << "]: Sum = " << part_sum << "\n";
+            sum += i;
         }
 #pragma omp critical
         {
-            sum += part_sum;
+            cout << "[" << omp_get_thread_num() << "]: Sum = " << sum << "\n";
         }
     }
     cout << "Sum = " << sum << endl;
@@ -70,12 +67,21 @@ void task_B(int N, int thread_number)
 void task_C(int N, int thread_number)
 {
     int sum = 0;
-#pragma omp parallel for reduction(+ : sum) num_threads(thread_number)
-    for (int i = 1; i <= N; ++i)
+
+#pragma omp parallel reduction(+ : sum) num_threads(thread_number)
     {
-        sum += i;
-        cout << "[" << omp_get_thread_num() << "]: Sum = " << sum << "\n";
+#pragma omp for
+        for (int i = 1; i <= N; ++i)
+        {
+            sum += i;
+        }
+
+#pragma omp critical
+        {
+            cout << "[" << omp_get_thread_num() << "]: Sum = " << sum << "\n";
+        }
     }
+
     cout << "Sum = " << sum << endl;
 }
 
@@ -83,14 +89,21 @@ void task_D(int N, int thread_number)
 {
     int sum = 0;
     // vector<int> haha(N);
-#pragma omp parallel for reduction(+ : sum) num_threads(thread_number) schedule(guided, 2)
-    for (int i = 1; i <= N; ++i)
+#pragma omp parallel reduction(+ : sum) num_threads(thread_number)
     {
-        sum += i;
-        // haha[i] = omp_get_thread_num();
-        cout << "[" << omp_get_thread_num() << "]: Sum = " << sum << "\n";
-        cout << "[" << omp_get_thread_num() << "]: calculation of the iteration number " << i << "\n";
+#pragma omp for schedule(static)
+        for (int i = 1; i <= N; ++i)
+        {
+            sum += i;
+            // haha[i] = omp_get_thread_num();
+            cout << format("[{}]: calculation of the iteration number {}\n", omp_get_thread_num(), i);
+        }
+#pragma omp critical
+        {
+            cout << "[" << omp_get_thread_num() << "]: Sum = " << sum << "\n";
+        }
     }
+
     cout << "Sum = " << sum << endl;
     // for (auto i : haha)
     // {
