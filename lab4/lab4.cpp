@@ -1,8 +1,9 @@
+#include <format>
 #include <iostream>
 #include <omp.h>
-#include <vector>
 #include <random>
-#include <format>
+#include <string>
+#include <vector>
 
 using namespace std;
 
@@ -49,22 +50,6 @@ void par_bubble_sort(int *a, int n, int threads)
         }
     }
 }
-
-// int main()
-// {
-//     vector<int> a;
-//     for (auto i : a)
-//     {
-//         cout << i;
-//     }
-//     int n = 15;
-//     int *arr = gen_arr(n, 10);
-//     print(arr, n);
-//     // bubble_sort(arr, n);
-//     par_bubble_sort(arr, n);
-//     print(arr, n);
-//     // return 0;
-// }
 
 void merge(int *a, int left, int mid, int right)
 {
@@ -115,7 +100,67 @@ void mergeSortIterative(int *a, int n, int threads)
     }
 }
 
-double test(void (*func)(int *a, int n, int threads), int n, int threads)
+int partition(int *a, int l, int r)
+{
+    int v = a[(l + r) / 2];
+    int i = l, j = r;
+    while (i <= j)
+    {
+        while (a[i] < v)
+            i++;
+        while (a[j] > v)
+            j--;
+        if (i >= j)
+            break;
+        swap(a[i++], a[j--]);
+    }
+    return j;
+}
+
+void quicksort(int *a, int l, int r)
+{
+    if (l >= r)
+        return;
+    int q = partition(a, l, r);
+
+#pragma omp task
+    quicksort(a, l, q);
+#pragma omp task
+    quicksort(a, q + 1, r);
+}
+
+void oleg_quicksort(int *a, int n, int threads)
+{
+#pragma omp parallel num_threads(threads)
+#pragma omp single
+    quicksort(a, 0, n - 1);
+}
+
+void shell_sort(int *a, int n)
+{
+}
+
+void shell_par_sort(int *a, int n, int threads)
+{
+    for (int s = n / 2; s > 0; s /= 2)
+#pragma omp parallel for num_threads(min(threads, s))
+        for (int i = s; i < n; ++i)
+            for (int j = i - s; j >= 0 && a[j] > a[j + s]; j -= s)
+                swap(a[j], a[j + s]);
+}
+
+void beb_shell_par_sort(int *a, int n, int threads)
+{
+    for (int s = n / 2; s > 0; s /= 2)
+#pragma omp parallel for num_threads(min(threads, s))
+        for (int i = 0; i < s; i++)
+            for (int j = i; j < n - s; j += s)
+                if (a[j] > a[j + s])
+                    swap(a[j], a[j + s]);
+}
+
+double test(void (*func)(int *a, int n, int threads), string name, int n,
+            int threads)
 {
     int *a = gen_arr(n, 1);
     double start = omp_get_wtime();
@@ -124,8 +169,9 @@ double test(void (*func)(int *a, int n, int threads), int n, int threads)
     for (int i = 0; i < n - 1; i++)
     {
         if (a[i] > a[i + 1])
-            throw invalid_argument(format("Errer {} > {}", a[i], a[i + 1]));
+            throw invalid_argument(format("Errer {} {} > {}", name, a[i], a[i + 1]));
     }
+    delete[] a;
     return end - start;
 }
 
@@ -137,9 +183,13 @@ int main()
     int threads[] = {1, 2, 4, 8, 12, 16, 20};
     for (auto thread : threads)
     {
-        cout << format("#threads: {}, {}, {}\n", thread,
-                       test(mergeSortIterative, size, thread),
-                       test(par_bubble_sort, size, thread));
+        cout << format("#threads: {}, {}, {}, {}, {}\n", thread,
+                       test(mergeSortIterative, "merge", size, thread),
+                       test(oleg_quicksort, "oleg", size, thread),
+                       test(shell_par_sort, "shell", size, thread),
+                       test(par_bubble_sort, "bubble", size, thread)
+
+        );
     }
     return 0;
 }
