@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lw6GE0QUKEz6stVFpoM6nT2BZGlxeMGdsvZt7zBu+/MMY+WFCqit4HUXL4ogJh4S52cy4YOLLk+d6hmO4oDhBA==",
+  "dgSpecHash": "njj8oklTeYfRRoGRvul7IcLJKEpwp9MFHvEAnd5M6XPWRqDJhUMo4sex6wGoObQOH7UQiZ5xJokYBEK3HYN8GA==",
   "success": true,
   "projectFilePath": "/home/iversy/code/parall/ConsoleApp2/ConsoleApp2.csproj",
   "expectedPackageFiles": [
-    "/home/iversy/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.8/microsoft.aspnetcore.app.ref.8.0.8.nupkg.sha512"
+    "/home/iversy/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.10/microsoft.aspnetcore.app.ref.8.0.10.nupkg.sha512"
   ],
   "logs": []
 }

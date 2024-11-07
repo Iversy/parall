@@ -177,6 +177,7 @@ double test(void (*func)(int *a, int n, int threads), string name, int n,
 
 int main()
 {
+    List<
     int size = 1 << 16;
     cout << "size: " << size << endl;
 
