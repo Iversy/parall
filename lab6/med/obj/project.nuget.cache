@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ae3+TELkl1Ed6p6QjoizbkItSQRlZB3h3KQIL4Jqzn1+oMDtjXUF7r2aA/wKG+qlmgInkrrCscxrsNTZoilR0g==",
+  "success": true,
+  "projectFilePath": "/home/iversy/code/parall/lab6/med/med.csproj",
+  "expectedPackageFiles": [
+    "/home/iversy/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.10/microsoft.aspnetcore.app.ref.8.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

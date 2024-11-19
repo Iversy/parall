@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/iversy/code/parall/lab6/ConsoleApplab6/ConsoleApplab6.csproj": {}
+  },
+  "projects": {
+    "/home/iversy/code/parall/lab6/ConsoleApplab6/ConsoleApplab6.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/iversy/code/parall/lab6/ConsoleApplab6/ConsoleApplab6.csproj",
+        "projectName": "ConsoleApplab6",
+        "projectPath": "/home/iversy/code/parall/lab6/ConsoleApplab6/ConsoleApplab6.csproj",
+        "packagesPath": "/home/iversy/.nuget/packages/",
+        "outputPath": "/home/iversy/code/parall/lab6/ConsoleApplab6/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/iversy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.10, 8.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/home/iversy/code/parall/lab6/passengers/bin/Debug/net8.0/passengers
+/home/iversy/code/parall/lab6/passengers/bin/Debug/net8.0/passengers.deps.json
+/home/iversy/code/parall/lab6/passengers/bin/Debug/net8.0/passengers.runtimeconfig.json
+/home/iversy/code/parall/lab6/passengers/bin/Debug/net8.0/passengers.dll
+/home/iversy/code/parall/lab6/passengers/bin/Debug/net8.0/passengers.pdb
+/home/iversy/code/parall/lab6/passengers/obj/Debug/net8.0/passengers.GeneratedMSBuildEditorConfig.editorconfig
+/home/iversy/code/parall/lab6/passengers/obj/Debug/net8.0/passengers.AssemblyInfoInputs.cache
+/home/iversy/code/parall/lab6/passengers/obj/Debug/net8.0/passengers.AssemblyInfo.cs
+/home/iversy/code/parall/lab6/passengers/obj/Debug/net8.0/passengers.csproj.CoreCompileInputs.cache
+/home/iversy/code/parall/lab6/passengers/obj/Debug/net8.0/passengers.sourcelink.json
+/home/iversy/code/parall/lab6/passengers/obj/Debug/net8.0/passengers.dll
+/home/iversy/code/parall/lab6/passengers/obj/Debug/net8.0/refint/passengers.dll
+/home/iversy/code/parall/lab6/passengers/obj/Debug/net8.0/passengers.pdb
+/home/iversy/code/parall/lab6/passengers/obj/Debug/net8.0/passengers.genruntimeconfig.cache
+/home/iversy/code/parall/lab6/passengers/obj/Debug/net8.0/ref/passengers.dll

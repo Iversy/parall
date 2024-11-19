@@ -1,0 +1,15 @@
+/home/iversy/code/parall/lab6/med/bin/Debug/net8.0/med
+/home/iversy/code/parall/lab6/med/bin/Debug/net8.0/med.deps.json
+/home/iversy/code/parall/lab6/med/bin/Debug/net8.0/med.runtimeconfig.json
+/home/iversy/code/parall/lab6/med/bin/Debug/net8.0/med.dll
+/home/iversy/code/parall/lab6/med/bin/Debug/net8.0/med.pdb
+/home/iversy/code/parall/lab6/med/obj/Debug/net8.0/med.GeneratedMSBuildEditorConfig.editorconfig
+/home/iversy/code/parall/lab6/med/obj/Debug/net8.0/med.AssemblyInfoInputs.cache
+/home/iversy/code/parall/lab6/med/obj/Debug/net8.0/med.AssemblyInfo.cs
+/home/iversy/code/parall/lab6/med/obj/Debug/net8.0/med.csproj.CoreCompileInputs.cache
+/home/iversy/code/parall/lab6/med/obj/Debug/net8.0/med.sourcelink.json
+/home/iversy/code/parall/lab6/med/obj/Debug/net8.0/med.dll
+/home/iversy/code/parall/lab6/med/obj/Debug/net8.0/refint/med.dll
+/home/iversy/code/parall/lab6/med/obj/Debug/net8.0/med.pdb
+/home/iversy/code/parall/lab6/med/obj/Debug/net8.0/med.genruntimeconfig.cache
+/home/iversy/code/parall/lab6/med/obj/Debug/net8.0/ref/med.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lk/VlJ/eBG7z0JwkpyoZF+TqYGlyWa+fHf3s4TefBLqRppc3kyT7MrYi2YSclJJzlUr1JLrMlIc8JDsvPQE37Q==",
+  "success": true,
+  "projectFilePath": "/home/iversy/code/parall/lab6/mail/mail.csproj",
+  "expectedPackageFiles": [
+    "/home/iversy/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.10/microsoft.aspnetcore.app.ref.8.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

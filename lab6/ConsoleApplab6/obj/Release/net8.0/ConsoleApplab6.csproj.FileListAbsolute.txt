@@ -1,0 +1,15 @@
+/home/iversy/code/parall/lab6/ConsoleApplab6/bin/Release/net8.0/ConsoleApplab6
+/home/iversy/code/parall/lab6/ConsoleApplab6/bin/Release/net8.0/ConsoleApplab6.deps.json
+/home/iversy/code/parall/lab6/ConsoleApplab6/bin/Release/net8.0/ConsoleApplab6.runtimeconfig.json
+/home/iversy/code/parall/lab6/ConsoleApplab6/bin/Release/net8.0/ConsoleApplab6.dll
+/home/iversy/code/parall/lab6/ConsoleApplab6/bin/Release/net8.0/ConsoleApplab6.pdb
+/home/iversy/code/parall/lab6/ConsoleApplab6/obj/Release/net8.0/ConsoleApplab6.GeneratedMSBuildEditorConfig.editorconfig
+/home/iversy/code/parall/lab6/ConsoleApplab6/obj/Release/net8.0/ConsoleApplab6.AssemblyInfoInputs.cache
+/home/iversy/code/parall/lab6/ConsoleApplab6/obj/Release/net8.0/ConsoleApplab6.AssemblyInfo.cs
+/home/iversy/code/parall/lab6/ConsoleApplab6/obj/Release/net8.0/ConsoleApplab6.csproj.CoreCompileInputs.cache
+/home/iversy/code/parall/lab6/ConsoleApplab6/obj/Release/net8.0/ConsoleApplab6.sourcelink.json
+/home/iversy/code/parall/lab6/ConsoleApplab6/obj/Release/net8.0/ConsoleApplab6.dll
+/home/iversy/code/parall/lab6/ConsoleApplab6/obj/Release/net8.0/refint/ConsoleApplab6.dll
+/home/iversy/code/parall/lab6/ConsoleApplab6/obj/Release/net8.0/ConsoleApplab6.pdb
+/home/iversy/code/parall/lab6/ConsoleApplab6/obj/Release/net8.0/ConsoleApplab6.genruntimeconfig.cache
+/home/iversy/code/parall/lab6/ConsoleApplab6/obj/Release/net8.0/ref/ConsoleApplab6.dll

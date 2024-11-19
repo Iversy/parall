@@ -1,0 +1,15 @@
+/home/iversy/code/parall/lab6/mail/bin/Debug/net8.0/mail
+/home/iversy/code/parall/lab6/mail/bin/Debug/net8.0/mail.deps.json
+/home/iversy/code/parall/lab6/mail/bin/Debug/net8.0/mail.runtimeconfig.json
+/home/iversy/code/parall/lab6/mail/bin/Debug/net8.0/mail.dll
+/home/iversy/code/parall/lab6/mail/bin/Debug/net8.0/mail.pdb
+/home/iversy/code/parall/lab6/mail/obj/Debug/net8.0/mail.GeneratedMSBuildEditorConfig.editorconfig
+/home/iversy/code/parall/lab6/mail/obj/Debug/net8.0/mail.AssemblyInfoInputs.cache
+/home/iversy/code/parall/lab6/mail/obj/Debug/net8.0/mail.AssemblyInfo.cs
+/home/iversy/code/parall/lab6/mail/obj/Debug/net8.0/mail.csproj.CoreCompileInputs.cache
+/home/iversy/code/parall/lab6/mail/obj/Debug/net8.0/mail.sourcelink.json
+/home/iversy/code/parall/lab6/mail/obj/Debug/net8.0/mail.dll
+/home/iversy/code/parall/lab6/mail/obj/Debug/net8.0/refint/mail.dll
+/home/iversy/code/parall/lab6/mail/obj/Debug/net8.0/mail.pdb
+/home/iversy/code/parall/lab6/mail/obj/Debug/net8.0/mail.genruntimeconfig.cache
+/home/iversy/code/parall/lab6/mail/obj/Debug/net8.0/ref/mail.dll
